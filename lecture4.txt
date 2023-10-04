@@ -1,0 +1,50 @@
+
+
+Apt -- Advance Package Tool
+
+Update the package list and upgrade any outdated packages by running the following commands
+
+	-- sudo apt-get update
+	-- sudo apt-get upgrade
+	
+Download 
+
+	-- wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+Install
+	
+	-- sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+
+If you encounter any dependency issues, run the following command to install the missing dependencies
+
+	-- sudo apt-get install -f
+
+
+Pinta serves as a lightweight and feature-rich image editing and drawing tool for Ubuntu users
+
+	-- sudo apt-get install pinta
+	-- sudo apt-get install vlc
+check 
+	pinta  // apt show {package_name} i.e vlc
+
+Listing
+	-- apt list
+
+Search 
+	-- apt search {package_name}
+
+Reinstall
+	-- apt reinstall {package_name}
+
+Remove
+	-- sudo apt remove {package_name}
+
+with all dependencies
+	-- sudo apt purge {package_name}
+
+Remove Unnecessary
+	-- sudo apt autoremove
+		
+
+
